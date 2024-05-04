@@ -1,0 +1,31 @@
+body {
+  background-color: #0A1119;
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  width: 350px;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo a {
+  text-decoration: none;
+  color: #3B82F6;
+  font-size: x-large;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+.logo a:hover {
+  color: #B6CC37;
+}
+.link {
+  width: 35px;
+}
+.image {
+  margin-top: 30px;
+  width: 350px;
+}
