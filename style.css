@@ -29,3 +29,57 @@ body {
   margin-top: 30px;
   width: 350px;
 }
+.apr {
+  text-align: center;
+}
+.apresentacao {
+  font-size: 28px;
+  color: white;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-bottom: -50px;
+}
+.nome {
+  font-size: 44px;
+  color: #3B82F6;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-bottom: -40px;
+}
+.cargo {
+  font-size: 30px;
+  color: #B6CC37;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+.botoes {
+  margin-top: -10px;
+}
+.botao1 {
+  background-color: #CC4337;
+  padding: 10px 20px;
+  font-size: 28px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: white;
+}
+.botao2 {
+  background-color: #377DCC;
+  padding: 10px 20px;
+  font-size: 28px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: white;
+}
+.botao1:hover {
+    background-color: #B6CC37;
+    color: #CC4337;
+}
+.botao2:hover {
+  background-color: #B6CC37;
+  color: #377DCC;
+}
