@@ -1,7 +1,10 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg-1 {
   background-color: #0A1119;
-  margin: 0px;
-  padding: 0px;
 }
 .container {
   width: 350px;
@@ -37,43 +40,47 @@ body {
   color: white;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 700;
-  margin-bottom: -50px;
 }
 .nome {
   font-size: 44px;
   color: #3B82F6;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 700;
-  margin-bottom: -40px;
 }
 .cargo {
   font-size: 30px;
   color: #B6CC37;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 700;
+  margin-top: -10px;
 }
 .botoes {
-  margin-top: -10px;
+  margin-top: 10px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
 }
 .botao1 {
   background-color: #CC4337;
   padding: 10px 20px;
-  font-size: 28px;
+  font-size: 24px;
   border-radius: 10px;
   cursor: pointer;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 700;
   color: white;
+  border: none;
 }
 .botao2 {
   background-color: #377DCC;
   padding: 10px 20px;
-  font-size: 28px;
+  font-size: 24px;
   border-radius: 10px;
   cursor: pointer;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 700;
   color: white;
+  border: none;
 }
 .botao1:hover {
     background-color: #B6CC37;
@@ -82,4 +89,26 @@ body {
 .botao2:hover {
   background-color: #B6CC37;
   color: #377DCC;
+}
+.bg-2 {
+  background-color: #0D1B2B;
+  text-align: center;
+  padding-top: 50px;
+}
+.t1 {
+  font-size: 40px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #B6CC37;
+  margin-bottom: 20px;
+}
+.p1 {
+  font-size: 18px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  color: #fff;
+  padding-bottom: 50px;
+}
+.projetos {
+  width: 1000px;
+  height: 1000px;
 }
