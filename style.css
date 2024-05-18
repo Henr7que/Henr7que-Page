@@ -101,9 +101,18 @@
   font-weight: 700;
   color: #B6CC37;
   margin-bottom: 20px;
+  text-align: center;
+}
+.t2 {
+  font-size: 40px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #CC4337;
+  text-align: center;
+  padding-top: 50px;
 }
 .p1 {
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   color: #fff;
   padding-bottom: 50px;
@@ -111,4 +120,28 @@
 .projetos {
   width: 1000px;
   height: 1000px;
+}
+.skills {
+  display: flex;
+  padding-top: 30px;
+  text-align: start;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.logo-tec {
+  width: 50px;
+}
+.skill-tec {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  margin-bottom: 30px;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 5px;
 }
